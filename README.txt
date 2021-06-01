@@ -13,15 +13,15 @@ Test scenario:
 |-------|
   ||
   ||		 Send	
-ENCODE     ------>  |----------|
-			  	    |	   	   |
-				    | LOOPBACK |
-		   Receive  |		   |
-DECODE	  <-------  |----------|
+ENCODE         ------>  |----------|
+			|	   |
+			| LOOPBACK |
+	       Receive  |	   |
+DECODE	      <-------  |----------|
   ||	
-  ||	    Send	
-ENCODE    ------->  |----------|
-				    |	   	   |
-				    | LOOPBACK |
-		  Receive   |		   |
-COMPARE	  <-------  |----------|
+  ||	        Send	
+ENCODE        ------->  |----------|
+			|	   |
+			| LOOPBACK |
+	      Receive   |	   |
+COMPARE	      <-------  |----------|
